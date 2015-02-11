@@ -2,7 +2,7 @@
 
 Quando você abre uma página web em seu navegador, ele resgata o texto em HTML da página e o interpreta, de maneira semelhante ao que nosso interpretador do [Capítulo 11](11-pratica-linguagem-de-programacao.md) fazia. O navegador constrói um modelo da estrutura do documento e depois usa esse modelo para desenhar a página na tela.
 
-Um dos "brinquedos" que um programa em JavaScript possui disponível em sua caixa de ferramentas é essa representação do documento. Você pode lê-la e também alterá-la. Essa representação age como uma estrutura viva de dados: quando modificada, a página na tela é atualizada para refletir as mudanças.
+Essa representação do documento é uma das diversões que um programa JavaScript têm em sua caixa de ferramentas. Você pode ler do modelo e também alterá-lo. O modelo age como uma estrutura de dados viva: quando é modificado, a página é atualizada para refletir as alterações.
 
 ## Estrutura do Documento
 
