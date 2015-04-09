@@ -6,7 +6,7 @@ Essa representação do documento é uma das diversões que um programa JavaScri
 
 ## Estrutura do Documento
 
-Você pode imaginar um documento HTML como um conjunto de caixas aninhadas. Tags como <body> e </body> encapsulam outras tags, as quais, por sua vez, contêm outras tags ou texto. Aqui está o documento de exemplo do último capítulo:	
+Você pode imaginar um documento HTML como um conjunto de caixas aninhadas. Tags como <body> e </body> encapsulam outras tags, que por sua vez, contêm outras tags ou texto. Aqui está o documento de exemplo do capítulo anterior:	
 
 ```html
 <html>
@@ -26,9 +26,9 @@ Essa página tem a seguinte estrutura:
 
 ![Caixas HTML](../img/html-boxes.jpg)
 
-A estrutura de dados que o navegador usa para representar o documento segue este formato. Para cada caixa há um objeto, com o qual podemos interagir para descobrir coisas como: qual tag HTML ele representa e quais caixas e textos ele contém. Essa representação é chamada de Modelo de Objeto de Documentos, também apelidada de DOM  (do inglês *Document Object Model*).
+A estrutura de dados que o navegador usa para representar o documento segue este formato. Para cada caixa há um objeto, com o qual podemos interagir para descobrir coisas como qual tag HTML ele representa e quais caixas e textos ele contém. Essa representação é chamada de Modelo de Objeto de Documentos, mais comumente chamada de DOM  (do inglês *Document Object Model*).
 
-A variável global `document` nos dá acesso à esses objetos. Sua propriedade `documentElement` se refere ao objeto que representa a tag <html>. Essa propriedade também nos fornece as propriedades `head` e `body`, alocando objetos para esses elementos.
+A variável global `document` nos dá acesso à esses objetos. Sua propriedade `documentElement` se refere ao objeto que representa a tag <html>. Ela também nos fornece as propriedades `head` e `body`, as quais contem os objetos para esses elementos.
 
 ## Árvores
 
